@@ -1,0 +1,23 @@
+{
+  "name": "spa-router-vanilla-javascript",
+  "version": "1.0.0",
+  "description": "Build SPA router with only vanilla javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intothedeep/SPA-router-vanilla-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intothedeep/SPA-router-vanilla-javascript/issues"
+  },
+  "homepage": "https://github.com/intothedeep/SPA-router-vanilla-javascript#readme",
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
+}
