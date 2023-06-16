@@ -1,3 +1,1 @@
-
-
-export function handleOnPopState() {}
+export { request } from './api';

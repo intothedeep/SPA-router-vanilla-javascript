@@ -1,6 +1,7 @@
 const routes = {
 	404: 'pages/404.html',
 	'/': '/src/pages/404.html',
+	'/home': '/src/pages/home.html',
 	'/short': '/src/pages/short.html',
 	'/long': '/src/pages/long.html',
 };
