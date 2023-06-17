@@ -4,7 +4,7 @@ import { handleLocation } from './router.js';
 
 const navItemList = [
 	{
-		title: 'Home',
+		title: 'Short',
 		path: '/',
 		id: 0,
 	},
@@ -21,8 +21,6 @@ const navItemList = [
 ];
 
 export default function App({ $target }) {
-	console.log('>>> #target:: ', $target);
-
 	this.state = {};
 	this.state.navItemList = navItemList;
 
@@ -35,8 +33,10 @@ export default function App({ $target }) {
 		$target,
 	});
 
-	const init = () => {
+	const init = async () => {
 		console.log('app init!! ');
+		const res = await fetch('data/route.json');
+		console.log(await res.json());
 	};
 
 	init();

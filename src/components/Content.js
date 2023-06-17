@@ -1,4 +1,4 @@
-import { Home } from '../pages/Home.js';
+import { Home } from '../pages/home/home.js';
 
 export function Content({ $target }) {
 	this.state = {};
