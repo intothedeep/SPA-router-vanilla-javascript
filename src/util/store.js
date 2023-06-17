@@ -37,3 +37,5 @@ class Store {
 		this.listeners[key].forEach((listener) => listener());
 	}
 }
+
+export const store = new Store();
